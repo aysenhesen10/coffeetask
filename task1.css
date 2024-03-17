@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-image: url('https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+body ::before{
+    content: "";
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(39, 21, 14, 0.65);
+    z-index: -1;
+}
+.start{
+    text-align: center;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   padding-top: 80px;
+  padding-bottom: 80px;
+ 
+   font-family: "Petrona", serif;}
+   .data-img-div{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+
+   }
+   .data img{
+    width: 60%;
+   }
+   .start h2{
+    color: #E6A756;}
+    .start h1{
+        color: #F6E1c5;
+    }
+    .header_list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(54, 22, 12, 0.9);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .header_list nav ul{
+        display: flex;
+        flex-direction: row;
+        gap: 64px;
+        font-family:"Petrona ,serif" ;
+        font-size: 14.5px;
+        font-weight: 750px;
+    }
+    .header_list nav ul li a{
+      color: rgb(227, 242, 242);
+
+    }
+    .data{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   ;
+        
+    }
+    .data .data-img-div{
+        width: 820px;
+        position: relative;
+        height: 100vh;
+        left: 200px;
+        top: 50px;
+    }
+    .data .data-img-div img{
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+    }
+    .data .text{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #F6E1c5;
+        width: 700px;
+        text-align: center;
+        padding: 50px 50px 64px 50px;
+        border-radius: 6px;
+        position: absolute;
+        left: 50px !important;
+        z-index: 999;
+   
+
+       
+    }
+    .data .text h2{
+        font-family: "Petrona,serif";
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .data .text h1{
+        font-family: "Petrona ,serif";
+        font-size: 48px;
+        font-weight: 100;
+        padding-bottom: 22px;
+    }
+    .data .text p{
+        font-family: "Petrona,serif";
+        text-align: center;
+        line-height: 1.85;
+    }
+    .data .text button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #E6A756;
+        width: 155px;
+        height: 70px;
+        border-radius: 6px;
+    }
+    .promise{
+        width: 100%;
+        height: 400px;
+        background-color: rgba(230, 167, 86, 0.9);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+    }
+    .promise .footer_start{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #e6c293;
+        width: 600.2px;
+        padding: 50px 50px 64px 50px;
+        border-radius: 6px;
+        position: absolute;
+        
+    }
+    .promise .footer_start h2{
+        font-family: "Petrona,serif";
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .promise .footer_start h1{
+        font-family: "Petrona ,serif";
+        font-size: 48px;
+        font-weight: 100;
+        padding-bottom: 22px;
+    }
+    .promise .footer_start p{
+        font-family: "Petrona,serif";
+        text-align: center;
+        line-height: 1.85;
+    }
+.copy-right-text{
+    text-align: center;
+    color: #E6A756;
+    padding: 50px 0px;
+}
+.footer_end{
+    width: 1426px;
+    margin-top: 70px;
+    background-color: rgba(39, 21, 14, 0.65);
+}
+
+    
+ 
+
+
+    
+   
